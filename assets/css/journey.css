@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+# Journey Section Styles
+--------------------------------------------------------------*/
+.journey-table {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.journey-row {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.journey-row:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, 
+    rgba(var(--accent-color-rgb), 0.3) 0%,
+    rgba(var(--accent-color-rgb), 0.1) 100%);
+}
+
+.journey-icon {
+  flex-shrink: 0;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.journey-icon i {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.journey-row:hover .journey-icon i {
+  transform: scale(1.2);
+}
+
+.journey-content {
+  flex-grow: 1;
+}
+
+.journey-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--heading-color);
+}
+
+.journey-details {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.journey-row:hover .journey-details {
+  transform: translateY(-5px);
+}
+
+.journey-details .period {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.journey-details p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .journey-row {
+    gap: 1rem;
+  }
+  
+  .journey-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .journey-row:not(:last-child)::after {
+    left: 2rem;
+  }
+}

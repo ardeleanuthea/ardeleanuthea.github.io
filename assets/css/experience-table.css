@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------
+# Experience Table Styles
+--------------------------------------------------------------*/
+.experience-table {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.table-row {
+  display: flex;
+  padding: 2rem;
+  position: relative;
+}
+
+.table-row:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table-row.header {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem 2rem;
+}
+
+.table-row.header h4 {
+  color: var(--heading-color);
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.table-cell {
+  width: 50%;
+  padding: 0 1.5rem;
+}
+
+.table-cell:first-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table-cell h5 {
+  font-size: 1.25rem;
+  color: var(--heading-color);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.table-cell .duration {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.table-cell .company {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+}
+
+.table-cell ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.table-cell ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.table-cell ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+}
+
+.table-cell .skills {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+/* Hover Effects */
+.table-row:not(.header):hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .table-row {
+    flex-direction: column;
+  }
+  
+  .table-cell {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .table-cell:first-child {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .table-row.header {
+    display: none;
+  }
+}
