@@ -1,134 +1,639 @@
-<!DOCTYPE html>
-<!-- Updated: August 20, 2025 -->
-<html lang="en">
-
+<!doctype html>
+<html lang="en" data-lang="en">
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portofolio- Thea Maria Ardeleanu</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Updated: Mar 05 2025 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thea Maria Ardeleanu · AI & Digital Transformation</title>
+  <meta name="description" content="Thea Maria Ardeleanu, Paris. I show companies what AI can really do for them, then build it with them: AI agents, automations and tools that take the work off your shoulders.">
+  <meta property="og:title" content="Thea Maria Ardeleanu">
+  <meta property="og:description" content="AI & digital transformation in Paris. Let me take the work off your shoulders.">
+  <meta property="og:image" content="https://ardeleanuthea.github.io/assets/img/og.jpg">
+  <meta property="og:url" content="https://ardeleanuthea.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://ardeleanuthea.github.io/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Thea Maria Ardeleanu",
+    "url": "https://ardeleanuthea.github.io/",
+    "image": "https://ardeleanuthea.github.io/assets/img/thea.jpg",
+    "jobTitle": "Consultant, AI & Digital Transformation",
+    "worksFor": [
+      {"@type": "Organization", "name": "Kidays", "url": "https://kidays.fr"},
+      {"@type": "Organization", "name": "Letsgo-digital"}
+    ],
+    "address": {"@type": "PostalAddress", "addressLocality": "Paris", "addressCountry": "FR"},
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "International University of Monaco"},
+      {"@type": "CollegeOrUniversity", "name": "Suffolk University"},
+      {"@type": "CollegeOrUniversity", "name": "ECE Paris"}
+    ],
+    "knowsAbout": ["AI agents", "Automation", "SEO", "Generative Engine Optimization", "Digital transformation"],
+    "knowsLanguage": ["ro", "en", "fr"],
+    "sameAs": ["https://www.linkedin.com/in/thea-maria-ardeleanu-7540762a6"]
+  }
+  </script>
 </head>
+<body>
 
-<body class="index-page">
+<a class="skip" href="#main">Skip to content</a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+<header class="bar" id="bar">
+  <a class="mark" href="#top" aria-label="Thea Maria Ardeleanu, home">T.A</a>
+  <div class="bar-right">
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="fr" aria-pressed="false">FR</button>
+    </div>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+      <span lang="en">Menu</span><span lang="fr">Menu</span>
+    </button>
+  </div>
+</header>
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Logo removed -->
-      </a>
+<nav class="menu" id="menu" aria-label="Main" hidden>
+  <ol>
+    <li><a href="#about"><small>01</small><span lang="en">About</span><span lang="fr">À propos</span></a></li>
+    <li><a href="#services"><small>02</small><span lang="en">What I do</span><span lang="fr">Ce que je fais</span></a></li>
+    <li><a href="#work"><small>03</small><span lang="en">Before &amp; after</span><span lang="fr">Avant &amp; après</span></a></li>
+    <li><a href="#experience"><small>04</small><span lang="en">Experience</span><span lang="fr">Parcours</span></a></li>
+    <li><a href="#contact"><small>05</small>Contact</a></li>
+  </ol>
+  <a class="menu-cv" href="cv.html"><span lang="en">One-page CV ↗</span><span lang="fr">CV une page ↗</span></a>
+</nav>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="diplomas.html">Diplomas</a></li>
-          <li><a href="startup.html">Start-up</a></li>
-          <li><a href="contact.html">Contact</a></li>
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <h1 class="hero-title">
+    <span class="line l1 rise">Thea Maria</span>
+    <span class="line l2">
+      <em class="rise d1">Ardeleanu</em>
+      <span class="hero-img rise d2"><img src="assets/img/thea-wide.jpg" width="1000" height="520" alt="Thea Maria Ardeleanu, black and white portrait"></span>
+    </span>
+  </h1>
+  <div class="hero-foot rise d3">
+    <p class="hero-lede" lang="en">Most teams have no idea how much more they could do with AI. <em>Let me show you,</em> and take the work off your shoulders.</p>
+    <p class="hero-lede" lang="fr">La plupart des équipes n'imaginent pas tout ce qu'elles pourraient faire avec l'IA. <em>Laissez-moi vous le montrer,</em> et vous enlever ce poids des épaules.</p>
+    <a class="arrow-link" href="#work"><span lang="en">See the work</span><span lang="fr">Voir les projets</span> <i aria-hidden="true">↗</i></a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <span class="pill"><i></i><span lang="en">About</span><span lang="fr">À propos</span></span>
+  <div class="about-body">
+    <p class="statement" data-reveal lang="en">AI can make your business faster, sharper and more performant than you think. I've spent years mastering how. Let's partner: I learn how you work, then build the agents, automations and tools that give your team its time back.</p>
+    <p class="statement" data-reveal lang="fr">L'IA peut rendre votre entreprise plus rapide, plus précise et plus performante que vous ne l'imaginez. J'ai appris à la maîtriser. Travaillons ensemble : je comprends votre façon de travailler, puis je construis les agents, les automatisations et les outils qui rendent du temps à votre équipe.</p>
+    <p class="about-sub" lang="en">Based in Paris. Consultant in digital transformation &amp; AI engineering at Kidays through an apprenticeship alongside an MBA in Big Data &amp; AI, co-founder of the agency Letsgo-digital. Business graduate from Monaco, five years of study completed in four. Romanian, fluent in English and French.</p>
+    <p class="about-sub" lang="fr">Basée à Paris. Consultante en transformation digitale &amp; ingénierie IA chez Kidays en alternance avec un MBA Big Data &amp; IA, cofondatrice de l'agence Letsgo-digital. Diplômée en business à Monaco, cinq années d'études réalisées en quatre. Roumaine, anglais et français courants.</p>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats" aria-label="Highlights">
+  <div class="stat"><b data-count="1800" data-suffix="+">1,800+</b><span lang="en">e-commerce products audited for SEO</span><span lang="fr">produits e-commerce audités en SEO</span></div>
+  <div class="stat"><b data-count="800" data-suffix="+">800+</b><span lang="en">product &amp; collection pages rewritten</span><span lang="fr">pages produits et collections réécrites</span></div>
+  <div class="stat"><b data-count="60" data-prefix="−" data-suffix="%">−60%</b><span lang="en">page weight on kidays.fr after speed work</span><span lang="fr">de poids de page sur kidays.fr</span></div>
+  <div class="stat"><b data-count="5" data-suffix=" in 4" data-suffix-fr=" en 4">5 in 4</b><span lang="en">years of study, completed in four</span><span lang="fr">années d'études, réalisées en quatre</span></div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="sec-head">
+    <span class="pill"><i></i><span lang="en">What I do</span><span lang="fr">Ce que je fais</span></span>
+    <h2 lang="en">Everything you've wanted to build for years, and never had the time to.</h2>
+    <h2 lang="fr">Tout ce que vous vouliez construire depuis des années, sans jamais en avoir le temps.</h2>
+  </div>
+
+  <div class="acc">
+    <details>
+      <summary><small>01</small><span class="acc-t"><span lang="en">AI agents, for anything</span><span lang="fr">Agents IA, pour tout</span></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="acc-body">
+        <p lang="en">If a task involves research, writing, analysis, decisions or follow-up, an agent can do it. I design custom agents around the way your team works: they run on their own, and a human keeps the final say on what matters.</p>
+        <p lang="fr">Si une tâche demande de la recherche, de la rédaction, de l'analyse, des décisions ou du suivi, un agent peut la faire. Je conçois des agents sur mesure autour de la façon dont votre équipe travaille : ils tournent seuls, et un humain garde le dernier mot sur ce qui compte.</p>
+        <ul class="tags"><li>Claude</li><li>Claude Code</li><li>Python</li><li>Prompt engineering</li><li>APIs</li></ul>
+      </div>
+    </details>
+    <details>
+      <summary><small>02</small><span class="acc-t"><span lang="en">Automations &amp; systems</span><span lang="fr">Automatisations &amp; systèmes</span></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="acc-body">
+        <p lang="en">Workflows that connect your tools and remove the manual steps: forms, CRM, emails, documents, reports. Built once, running every day, with a shared knowledge base so every task starts from the same facts.</p>
+        <p lang="fr">Des workflows qui relient vos outils et suppriment les étapes manuelles : formulaires, CRM, emails, documents, rapports. Construits une fois, actifs tous les jours, avec une base de connaissances partagée pour que chaque tâche parte des mêmes faits.</p>
+        <ul class="tags"><li>Make.com</li><li>APIs</li><li><span lang="en">Knowledge bases</span><span lang="fr">Bases de connaissances</span></li></ul>
+      </div>
+    </details>
+    <details>
+      <summary><small>03</small><span class="acc-t"><span lang="en">Apps &amp; tools</span><span lang="fr">Apps &amp; outils</span></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="acc-body">
+        <p lang="en">From an idea to something people can click: internal apps, review tools, dashboards, websites and landing pages. Built fast, tested on real use, improved from there.</p>
+        <p lang="fr">D'une idée à quelque chose sur lequel on peut cliquer : apps internes, outils de validation, dashboards, sites et landing pages. Construits vite, testés en conditions réelles, améliorés ensuite.</p>
+        <ul class="tags"><li>Web apps</li><li>WordPress</li><li>GitHub</li><li>Dashboards</li></ul>
+      </div>
+    </details>
+    <details>
+      <summary><small>04</small><span class="acc-t"><span lang="en">Search, SEO &amp; GEO</span><span lang="fr">Visibilité, SEO &amp; GEO</span></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="acc-body">
+        <p lang="en">Being found on Google and cited by ChatGPT, Perplexity or Gemini. SEO systems at catalogue scale, answer-first content, FAQ written for AI citation, structured data, and one consistent set of facts everywhere.</p>
+        <p lang="fr">Être trouvé sur Google et cité par ChatGPT, Perplexity ou Gemini. Des systèmes SEO à l'échelle d'un catalogue, du contenu qui répond d'abord, des FAQ pensées pour la citation IA, des données structurées et des faits cohérents partout.</p>
+        <ul class="tags"><li>Search Console</li><li>GA4</li><li>Rank Math</li><li>Schema.org</li></ul>
+      </div>
+    </details>
+    <details>
+      <summary><small>05</small><span class="acc-t"><span lang="en">Digital transformation</span><span lang="fr">Transformation digitale</span></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="acc-body">
+        <p lang="en">Finding where AI actually saves time in a business, turning a founder's vision into technical briefs, managing delivery with developers, and training the team so the tools get used.</p>
+        <p lang="fr">Identifier où l'IA fait vraiment gagner du temps dans une entreprise, traduire la vision d'un dirigeant en briefs techniques, piloter la livraison avec les développeurs, et former l'équipe pour que les outils soient vraiment utilisés.</p>
+        <ul class="tags"><li><span lang="en">Strategy</span><span lang="fr">Stratégie</span></li><li><span lang="en">Project management</span><span lang="fr">Gestion de projet</span></li><li>Data &amp; BI</li></ul>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="process-head">
+    <span class="pill pill-dark"><i></i><span lang="en">How I work</span><span lang="fr">Ma méthode</span></span>
+    <p class="big-dark" lang="en">Any idea can become a working system. This is how I get it there.</p>
+    <p class="big-dark" lang="fr">Toute idée peut devenir un système qui fonctionne. Voici comment je l'y amène.</p>
+  </div>
+  <div class="steps">
+    <article class="step" tabindex="0">
+      <small>01</small>
+      <h3><span lang="en">Understand</span><span lang="fr">Comprendre</span></h3>
+      <p lang="en">Start from the real problem and the people who have it, not from the tool.</p>
+      <p lang="fr">Partir du vrai problème et des personnes qui le vivent, pas de l'outil.</p>
+    </article>
+    <article class="step" tabindex="0">
+      <small>02</small>
+      <h3><span lang="en">Design</span><span lang="fr">Concevoir</span></h3>
+      <p lang="en">Map the system: what the AI decides, what code executes, where a human approves.</p>
+      <p lang="fr">Dessiner le système : ce que l'IA décide, ce que le code exécute, où un humain valide.</p>
+    </article>
+    <article class="step" tabindex="0">
+      <small>03</small>
+      <h3><span lang="en">Build</span><span lang="fr">Construire</span></h3>
+      <p lang="en">Ship a working version fast, then sharpen it with real use and real feedback.</p>
+      <p lang="fr">Livrer vite une version qui marche, puis l'affiner avec l'usage et les retours réels.</p>
+    </article>
+    <article class="step" tabindex="0">
+      <small>04</small>
+      <h3><span lang="en">Hand over</span><span lang="fr">Transmettre</span></h3>
+      <p lang="en">Documented, measured and simple to run, so it keeps working without me.</p>
+      <p lang="fr">Documenté, mesuré et simple à utiliser, pour que ça continue de tourner sans moi.</p>
+    </article>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work">
+  <div class="sec-head">
+    <span class="pill"><i></i><span lang="en">Selected work</span><span lang="fr">Projets</span></span>
+    <h2 lang="en">Before &amp; after.</h2>
+    <h2 lang="fr">Avant &amp; après.</h2>
+    <p class="sec-sub" lang="en">Real snippets from real projects. Flip between before and after, or open a project for the full story.</p>
+    <p class="sec-sub" lang="fr">De vrais extraits de vrais projets. Basculez entre avant et après, ou ouvrez un projet pour toute l'histoire.</p>
+  </div>
+
+  <div class="grid">
+
+    <!-- Case 1: GEO -->
+    <article class="card c-wide" data-case="geo">
+      <div class="shot shot-geo ba" data-state="before">
+        <div class="ba-toggle" role="group" aria-label="Before / after">
+          <button type="button" data-ba="before" aria-pressed="true"><span lang="en">Before</span><span lang="fr">Avant</span></button>
+          <button type="button" data-ba="after" aria-pressed="false"><span lang="en">After</span><span lang="fr">Après</span></button>
+        </div>
+        <div class="pane pane-before" aria-hidden="true">
+          <div class="old-page">
+            <p class="old-h">Animation anniversaire enfant</p>
+            <i class="ln"></i><i class="ln"></i><i class="ln short"></i>
+            <p class="old-chips"><s>Partout en France</s><s>674 avis</s><s>La meilleure équipe de France</s></p>
+          </div>
+          <p class="pane-cap"><span lang="en">No summary to quote, claims AI can't verify, figures out of date.</span><span lang="fr">Aucun résumé citable, des affirmations invérifiables, des chiffres dépassés.</span></p>
+        </div>
+        <div class="pane pane-after">
+          <div class="geo-box">
+            <p class="geo-l">En bref</p>
+            <p class="geo-t">Kidays organise des animations pour enfants : anniversaires de 4 à 12 ans, mariages et événements d'entreprise, à Paris et en Île-de-France, Lyon, Marseille, Bordeaux, Nice et Toulouse. Plus de 100 animateurs, 15 univers d'anniversaire et une note de 4,9/5 sur plus de 700 avis Google.</p>
+            <p class="geo-chips"><span>4,9/5 Google</span><span>700+ avis</span><span>6 villes</span></p>
+          </div>
+          <div class="geo-ai" aria-hidden="true">
+            <span class="geo-q">Animation anniversaire enfant Paris ?</span>
+            <span class="geo-a"><i></i><i></i><i class="short"></i><em>kidays.fr</em></span>
+          </div>
+        </div>
+      </div>
+      <button class="card-open" type="button">
+        <span class="card-meta"><span class="card-title">Kidays · <span lang="en">GEO for AI search</span><span lang="fr">GEO pour la recherche IA</span></span><span class="tags"><span>GEO</span><span>SEO</span><span>Schema</span></span></span>
+        <span class="card-sum" lang="en">Answer-first "En bref" blocks live on 32 pages, one set of facts across 57.</span>
+        <span class="card-sum" lang="fr">Blocs « En bref » en ligne sur 32 pages, des faits alignés sur 57.</span>
+        <span class="card-cta"><span lang="en">Open the case</span><span lang="fr">Voir le projet</span> ↗</span>
+      </button>
+    </article>
+
+    <!-- Case 2: Bohemia -->
+    <article class="card" data-case="bohemia">
+      <div class="shot shot-serp ba" data-state="before">
+        <div class="ba-toggle" role="group" aria-label="Before / after">
+          <button type="button" data-ba="before" aria-pressed="true"><span lang="en">Before</span><span lang="fr">Avant</span></button>
+          <button type="button" data-ba="after" aria-pressed="false"><span lang="en">After</span><span lang="fr">Après</span></button>
+        </div>
+        <div class="pane pane-before" aria-hidden="true">
+          <div class="serp serp-before">
+            <p class="serp-x">×29</p>
+            <p class="serp-t">Fructiera Cristal - Design Contemporan | Bohemia Crystal</p>
+            <p class="serp-t">Fructiera Cristal - Design Contemporan | Bohemia Crystal</p>
+            <p class="serp-t">Fructiera Cristal - Design Contemporan | Bohemia Crystal</p>
+            <p class="serp-t">Fructiera Cristal - Design Contemporan | Bohemia Crystal</p>
+          </div>
+          <p class="pane-cap"><span lang="en">29 different products, one identical title. Google can't tell them apart.</span><span lang="fr">29 produits différents, un seul et même titre. Google ne peut pas les distinguer.</span></p>
+        </div>
+        <div class="pane pane-after">
+          <div class="serp serp-after">
+            <p class="serp-t">Bol de Cristal Rotund 23 cm - Flower | Bohemia Crystal</p>
+            <p class="serp-t">Bol Cristal 15 cm - Whirl | Bohemia Crystal</p>
+            <p class="serp-t">Platou Cristal Bohemia 30 cm - Wheat | Bohemia Crystal</p>
+            <p class="serp-t">Platou Cristal Bohemia 30 cm Negru - Whirl | Bohemia Crystal</p>
+          </div>
+          <p class="pane-cap"><span lang="en">Keyword, size and model: every page unique, 611/611 verified live.</span><span lang="fr">Mot-clé, taille et modèle : chaque page unique, 611/611 vérifiées en ligne.</span></p>
+        </div>
+      </div>
+      <button class="card-open" type="button">
+        <span class="card-meta"><span class="card-title">Bohemia Crystal · SEO</span><span class="tags"><span>SEO</span><span>E-commerce</span></span></span>
+        <span class="card-sum" lang="en">611 duplicate titles made unique, 1,800+ products audited.</span>
+        <span class="card-sum" lang="fr">611 titres dupliqués rendus uniques, 1 800+ produits audités.</span>
+        <span class="card-cta"><span lang="en">Open the case</span><span lang="fr">Voir le projet</span> ↗</span>
+      </button>
+    </article>
+
+    <!-- Case 3: Agents -->
+    <article class="card" data-case="agents">
+      <div class="shot shot-term ba" data-state="before">
+        <div class="ba-toggle" role="group" aria-label="Before / after">
+          <button type="button" data-ba="before" aria-pressed="true"><span lang="en">Before</span><span lang="fr">Avant</span></button>
+          <button type="button" data-ba="after" aria-pressed="false"><span lang="en">After</span><span lang="fr">Après</span></button>
+        </div>
+        <div class="pane pane-before" aria-hidden="true">
+          <ul class="todo">
+            <li><span lang="en">Google every competitor</span><span lang="fr">Chercher chaque concurrent sur Google</span></li>
+            <li><span lang="en">Copy what you find into a doc</span><span lang="fr">Copier les infos dans un document</span></li>
+            <li><span lang="en">Compare offers and prices</span><span lang="fr">Comparer offres et prix</span></li>
+            <li><span lang="en">Write the analysis</span><span lang="fr">Rédiger l'analyse</span></li>
+            <li><span lang="en">Lay out a report</span><span lang="fr">Mettre en page le rapport</span></li>
+          </ul>
+          <p class="pane-cap pane-cap-dark"><span lang="en">By hand, when someone had the time.</span><span lang="fr">À la main, quand quelqu'un avait le temps.</span></p>
+        </div>
+        <div class="pane pane-after">
+          <div class="term">
+            <p class="term-bar"><i></i><i></i><i></i><span>kidays-agent</span></p>
+            <pre><span class="p">$</span> python3 run_competitor_analysis.py
+<span class="ok">✓</span> save_company_profile
+<span class="ok">✓</span> find_competitors
+<span class="ok">✓</span> search_competitor_data
+<span class="ok">✓</span> synthesize_competitor_data
+<span class="ok">✓</span> generate_report_content
+<span class="ok">✓</span> render_pdf_report
+<span class="dim">→ competitor_analysis.pdf</span><span class="caret"></span></pre>
+          </div>
+        </div>
+      </div>
+      <button class="card-open" type="button">
+        <span class="card-meta"><span class="card-title">Kidays · <span lang="en">AI agent system</span><span lang="fr">Système d'agents IA</span></span><span class="tags"><span>AI agents</span><span>Python</span></span></span>
+        <span class="card-sum" lang="en">One command: the agent researches, writes and delivers the report.</span>
+        <span class="card-sum" lang="fr">Une commande : l'agent recherche, rédige et livre le rapport.</span>
+        <span class="card-cta"><span lang="en">Open the case</span><span lang="fr">Voir le projet</span> ↗</span>
+      </button>
+    </article>
+
+    <!-- Case 4: Speed -->
+    <article class="card c-wide" data-case="speed">
+      <div class="shot shot-speed ba" data-state="before">
+        <div class="ba-toggle" role="group" aria-label="Before / after">
+          <button type="button" data-ba="before" aria-pressed="true"><span lang="en">Before</span><span lang="fr">Avant</span></button>
+          <button type="button" data-ba="after" aria-pressed="false"><span lang="en">After</span><span lang="fr">Après</span></button>
+        </div>
+        <div class="bars" aria-hidden="true">
+          <p><span lang="en">Home page</span><span lang="fr">Accueil</span></p>
+          <div class="bar-row"><span class="b" style="--a:34%"><em class="v-b">5.6 MB</em><em class="v-a">1.9 MB</em></span></div>
+          <p><span lang="en">Hub page</span><span lang="fr">Page hub</span></p>
+          <div class="bar-row"><span class="b" style="--a:39%"><em class="v-b">6.2 MB</em><em class="v-a">2.4 MB</em></span></div>
+          <p><span lang="en">Hero image</span><span lang="fr">Image hero</span></p>
+          <div class="bar-row"><span class="b" style="--a:6%"><em class="v-b">3.7 MB PNG</em><em class="v-a out">211 KB WebP</em></span></div>
+        </div>
+        <p class="pane-cap speed-cap"><span class="c-b"><span lang="en">Multi-megabyte images, autoplaying videos, a hero that faded in late.</span><span lang="fr">Des images de plusieurs Mo, des vidéos en autoplay, un hero qui apparaissait tard.</span></span><span class="c-a"><span lang="en">60% lighter pages, WebP images, a hero that shows instantly.</span><span lang="fr">Des pages 60 % plus légères, des images WebP, un hero instantané.</span></span></p>
+      </div>
+      <button class="card-open" type="button">
+        <span class="card-meta"><span class="card-title">Kidays · <span lang="en">Mobile speed</span><span lang="fr">Vitesse mobile</span></span><span class="tags"><span>Performance</span><span>WordPress</span></span></span>
+        <span class="card-sum" lang="en">Pages 60% lighter, heroes that show instantly on 69 pages.</span>
+        <span class="card-sum" lang="fr">Pages 60 % plus légères, hero affiché instantanément sur 69 pages.</span>
+        <span class="card-cta"><span lang="en">Open the case</span><span lang="fr">Voir le projet</span> ↗</span>
+      </button>
+    </article>
+
+  </div>
+</section>
+
+<!-- CASE DIALOG -->
+<dialog class="case" id="case" aria-labelledby="case-title">
+  <button class="case-close" type="button" aria-label="Close">×</button>
+  <div class="case-content" id="case-content"></div>
+</dialog>
+
+<template id="case-geo">
+  <p class="case-kicker">Kidays · 2026</p>
+  <h2 id="case-title"><span lang="en">Making Kidays the answer AI assistants give</span><span lang="fr">Faire de Kidays la réponse des assistants IA</span></h2>
+  <div class="case-cols">
+    <div>
+      <h4><span lang="en">Context</span><span lang="fr">Contexte</span></h4>
+      <p lang="en">Parents increasingly ask ChatGPT or Google's AI answers instead of clicking through results. Kidays' pages had inconsistent facts (reviews, prices, cities) and no short, quotable summary, so AI engines had nothing reliable to cite.</p>
+      <p lang="fr">Les parents posent de plus en plus leurs questions à ChatGPT ou aux réponses IA de Google au lieu de cliquer sur les résultats. Les pages Kidays avaient des faits incohérents (avis, prix, villes) et aucun résumé court et citable : les moteurs IA n'avaient rien de fiable à reprendre.</p>
+    </div>
+    <div>
+      <h4><span lang="en">What I did</span><span lang="fr">Ce que j'ai fait</span></h4>
+      <ul lang="en">
+        <li>Rebuilt the city, theme and home pages on one template (Paris first, then every city).</li>
+        <li>Added an answer-first "En bref" block under the hero of 32 pages.</li>
+        <li>Aligned one reference set of facts across 57 pages and their meta tags.</li>
+        <li>Wrote FAQ sections designed to be quoted, backed by FAQPage structured data.</li>
+        <li>Rewrote 41 app page titles and descriptions for purchase intent.</li>
+      </ul>
+      <ul lang="fr">
+        <li>Refonte des pages villes, thèmes et accueil sur un gabarit unique (Paris d'abord, puis chaque ville).</li>
+        <li>Ajout d'un bloc réponse « En bref » sous le hero de 32 pages.</li>
+        <li>Alignement d'un référentiel de faits unique sur 57 pages et leurs balises meta.</li>
+        <li>Rédaction de FAQ pensées pour être citées, avec données structurées FAQPage.</li>
+        <li>Réécriture de 41 titres et descriptions de l'app orientés intention d'achat.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="case-result">
+    <b>32</b><span lang="en">pages with an answer-first block</span><span lang="fr">pages avec bloc réponse</span>
+    <b>57</b><span lang="en">pages with aligned facts</span><span lang="fr">pages aux faits alignés</span>
+    <b>41</b><span lang="en">app pages retitled</span><span lang="fr">pages app retitrées</span>
+  </div>
+</template>
+
+<template id="case-bohemia">
+  <p class="case-kicker">Bohemia Crystal · 2026</p>
+  <h2 id="case-title"><span lang="en">1,800 products, one SEO system</span><span lang="fr">1 800 produits, un seul système SEO</span></h2>
+  <div class="case-cols">
+    <div>
+      <h4><span lang="en">Context</span><span lang="fr">Contexte</span></h4>
+      <p lang="en">A family-run luxury crystal retailer in Romania with a catalogue of 1,800+ products. Hundreds of pages shared the same title and description (29 products were all called "Fructiera Cristal - Design Contemporan"), so Google could not tell them apart.</p>
+      <p lang="fr">Un distributeur familial de cristal de luxe en Roumanie, avec un catalogue de plus de 1 800 produits. Des centaines de pages partageaient le même titre et la même description (29 produits s'appelaient tous « Fructiera Cristal - Design Contemporan ») : Google ne pouvait pas les distinguer.</p>
+    </div>
+    <div>
+      <h4><span lang="en">What I did</span><span lang="fr">Ce que j'ai fait</span></h4>
+      <ul lang="en">
+        <li>Audited every published product and wrote a rules document for keywords, titles and descriptions.</li>
+        <li>Protected 304 top performers (by Search Console clicks and impressions) from any change.</li>
+        <li>Built a review app in Romanian so the owner could approve each proposal in one click.</li>
+        <li>Published new SEO for 83 products with none, 611 duplicates and 118 collections, then read every value back from the live site.</li>
+      </ul>
+      <ul lang="fr">
+        <li>Audit de chaque produit publié et document de règles pour mots-clés, titres et descriptions.</li>
+        <li>Protection de 304 pages les plus performantes (clics et impressions Search Console).</li>
+        <li>App de validation en roumain : la propriétaire approuve chaque proposition en un clic.</li>
+        <li>Publication du SEO de 83 produits sans SEO, 611 doublons et 118 collections, puis relecture de chaque valeur sur le site en ligne.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="case-result">
+    <b>611</b><span lang="en">duplicates fixed, 611/611 verified</span><span lang="fr">doublons corrigés, 611/611 vérifiés</span>
+    <b>118</b><span lang="en">collections optimised</span><span lang="fr">collections optimisées</span>
+    <b>304</b><span lang="en">top pages protected</span><span lang="fr">meilleures pages protégées</span>
+  </div>
+</template>
+
+<template id="case-agents">
+  <p class="case-kicker">Kidays · 2026</p>
+  <h2 id="case-title"><span lang="en">An AI agent system for a small team</span><span lang="fr">Un système d'agents IA pour une petite équipe</span></h2>
+  <div class="case-cols">
+    <div>
+      <h4><span lang="en">Context</span><span lang="fr">Contexte</span></h4>
+      <p lang="en">Kidays is a small start-up. Competitor watch, reports and content planning were done by hand, when they were done at all.</p>
+      <p lang="fr">Kidays est une petite start-up. La veille concurrentielle, les rapports et la planification de contenu se faisaient à la main, quand ils se faisaient.</p>
+    </div>
+    <div>
+      <h4><span lang="en">What I did</span><span lang="fr">Ce que j'ai fait</span></h4>
+      <ul lang="en">
+        <li>Designed the architecture: Workflows (written procedures), Agents (Claude reasons and orchestrates), Tools (Python scripts execute).</li>
+        <li>Built a competitor analysis pipeline: finds competitors through Google search, collects and synthesises data, and renders a branded PDF report.</li>
+        <li>Set up a shared knowledge base so every task starts from the same facts.</li>
+        <li>Shipped Make.com automations and two AI agent tools for the sales team.</li>
+      </ul>
+      <ul lang="fr">
+        <li>Conception de l'architecture : Workflows (procédures écrites), Agents (Claude raisonne et orchestre), Tools (des scripts Python exécutent).</li>
+        <li>Pipeline de veille concurrentielle : trouve les concurrents via Google, collecte et synthétise les données, et génère un rapport PDF aux couleurs de la marque.</li>
+        <li>Base de connaissances partagée pour que chaque tâche parte des mêmes faits.</li>
+        <li>Automatisations Make.com et deux outils d'agents IA livrés à l'équipe commerciale.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="case-result">
+    <b>6</b><span lang="en">pipeline steps, one command</span><span lang="fr">étapes, une seule commande</span>
+    <b>2</b><span lang="en">agent tools for sales</span><span lang="fr">outils IA pour les ventes</span>
+    <b>1</b><span lang="en">shared knowledge base</span><span lang="fr">base de connaissances</span>
+  </div>
+</template>
+
+<template id="case-speed">
+  <p class="case-kicker">Kidays · 2026</p>
+  <h2 id="case-title"><span lang="en">A faster kidays.fr on mobile</span><span lang="fr">Un kidays.fr plus rapide sur mobile</span></h2>
+  <div class="case-cols">
+    <div>
+      <h4><span lang="en">Context</span><span lang="fr">Contexte</span></h4>
+      <p lang="en">Pages carried multi-megabyte images, autoplaying videos and a hero that faded in late, which slowed down the first screen on mobile.</p>
+      <p lang="fr">Les pages portaient des images de plusieurs mégaoctets, des vidéos en lecture automatique et un hero qui apparaissait en fondu tardif, ce qui ralentissait le premier affichage sur mobile.</p>
+    </div>
+    <div>
+      <h4><span lang="en">What I did</span><span lang="fr">Ce que j'ai fait</span></h4>
+      <ul lang="en">
+        <li>Made the hero appear instantly on 69 pages (no fade or zoom on load).</li>
+        <li>Re-encoded 26 heavy hero images to WebP.</li>
+        <li>Lazy-loaded 13 videos and put 11 YouTube embeds behind click-to-play.</li>
+        <li>Audited the remaining CSS and JavaScript and listed the unused plugins to remove.</li>
+      </ul>
+      <ul lang="fr">
+        <li>Hero affiché instantanément sur 69 pages (plus de fondu ni de zoom au chargement).</li>
+        <li>26 images hero lourdes réencodées en WebP.</li>
+        <li>13 vidéos en chargement différé et 11 vidéos YouTube en lecture au clic.</li>
+        <li>Audit du CSS et du JavaScript restants, avec la liste des extensions inutilisées à retirer.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="case-result">
+    <b>−60%</b><span lang="en">page weight</span><span lang="fr">poids de page</span>
+    <b>69</b><span lang="en">pages with an instant hero</span><span lang="fr">pages au hero instantané</span>
+    <b>26</b><span lang="en">images converted to WebP</span><span lang="fr">images converties en WebP</span>
+  </div>
+</template>
+
+<!-- MARQUEE -->
+<section class="marquee" aria-label="Tools">
+  <div class="track">
+    <span>Claude</span><span>Claude Code</span><span>Python</span><span>Prompt engineering</span><span>Make.com</span><span>WordPress</span><span>Rank Math</span><span>AIOSEO</span><span>Search Console</span><span>GA4</span><span>Tag Manager</span><span>Tableau</span><span>SQL</span><span>GitHub</span>
+    <span aria-hidden="true">Claude</span><span aria-hidden="true">Claude Code</span><span aria-hidden="true">Python</span><span aria-hidden="true">Prompt engineering</span><span aria-hidden="true">Make.com</span><span aria-hidden="true">WordPress</span><span aria-hidden="true">Rank Math</span><span aria-hidden="true">AIOSEO</span><span aria-hidden="true">Search Console</span><span aria-hidden="true">GA4</span><span aria-hidden="true">Tag Manager</span><span aria-hidden="true">Tableau</span><span aria-hidden="true">SQL</span><span aria-hidden="true">GitHub</span>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="exp" id="experience">
+  <div class="sec-head">
+    <span class="pill"><i></i><span lang="en">Experience</span><span lang="fr">Parcours</span></span>
+    <h2 lang="en">Where I've done it.</h2>
+    <h2 lang="fr">Là où je l'ai fait.</h2>
+  </div>
+
+  <div class="acc acc-exp">
+    <details open>
+      <summary>
+        <small>2026 –</small>
+        <span class="acc-t">Kidays<em><span lang="en">Consultant, Digital Transformation &amp; AI Engineering</span><span lang="fr">Consultante Transformation Digitale &amp; Ingénierie IA</span></em></span>
+        <span class="plus" aria-hidden="true"></span>
+      </summary>
+      <div class="acc-body">
+        <p lang="en"><strong>Apprenticeship, 2026 – 2027.</strong> After a six-month internship as the CEO's right hand (March to August 2026), I now lead digital transformation and AI engineering at Kidays, the Paris platform for children's party entertainers.</p>
+        <p lang="fr"><strong>Alternance, 2026 – 2027.</strong> Après six mois de stage comme bras droit du CEO (mars à août 2026), je pilote la transformation digitale et l'ingénierie IA de Kidays, la plateforme parisienne d'animation pour enfants.</p>
+        <ul lang="en">
+          <li>Designed and built the company's AI agent system and Make.com automations.</li>
+          <li>Leading the SEO, GEO and speed overhaul of kidays.fr and app.kidays.fr.</li>
+          <li>Bridge between the CEO and the developer: product vision into technical briefs, delivery follow-up.</li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+        <ul lang="fr">
+          <li>Conception et développement du système d'agents IA et des automatisations Make.com.</li>
+          <li>Pilotage de la refonte SEO, GEO et performance de kidays.fr et app.kidays.fr.</li>
+          <li>Interface entre le CEO et le développeur : vision produit en briefs techniques, suivi des livraisons.</li>
+        </ul>
+      </div>
+    </details>
+    <details>
+      <summary>
+        <small>2026 –</small>
+        <span class="acc-t">Letsgo-digital<em><span lang="en">Co-founder</span><span lang="fr">Cofondatrice</span></em></span>
+        <span class="plus" aria-hidden="true"></span>
+      </summary>
+      <div class="acc-body">
+        <p lang="en">A tech and digital marketing agency for growing businesses: websites, automation, AI and search. Just launched, more soon.</p>
+        <p lang="fr">Une agence tech et marketing digital pour les entreprises en croissance : sites, automatisation, IA et visibilité. Tout juste lancée, plus d'informations bientôt.</p>
+      </div>
+    </details>
+    <details>
+      <summary>
+        <small>2025 – 2026</small>
+        <span class="acc-t">BrainBuzz<em><span lang="en">Founder &amp; CEO</span><span lang="fr">Fondatrice &amp; CEO</span></em></span>
+        <span class="plus" aria-hidden="true"></span>
+      </summary>
+      <div class="acc-body">
+        <p lang="en">A digital networking platform for international students. I designed the growth and acquisition strategy from behavioural data and segmentation, and the AI features of the product vision (personalisation, smart matching). The opportunity is still viable; I chose to focus my energy elsewhere.</p>
+        <p lang="fr">Une plateforme de networking pour étudiants internationaux. J'ai conçu la stratégie de croissance et d'acquisition à partir de l'analyse comportementale et de la segmentation, et les fonctionnalités IA de la vision produit (personnalisation, smart matching). L'opportunité reste viable ; j'ai choisi de concentrer mon énergie ailleurs.</p>
+      </div>
+    </details>
+    <details>
+      <summary>
+        <small>2021 – 2026</small>
+        <span class="acc-t">Bohemia Crystal<em><span lang="en">SEO · Executive Assistant</span><span lang="fr">SEO · Assistante de direction</span></em></span>
+        <span class="plus" aria-hidden="true"></span>
+      </summary>
+      <div class="acc-body">
+        <ul lang="en">
+          <li><strong>2026:</strong> SEO audit and rewrite of the full catalogue on bohemia-crystal.ro (see Selected work).</li>
+          <li><strong>2021 to 2023</strong>, part-time alongside school: supplier coordination, logistics and promotions, social media, and customer data analysis (clustering, KNN) to target ad campaigns.</li>
+        </ul>
+        <ul lang="fr">
+          <li><strong>2026 :</strong> audit et réécriture SEO de tout le catalogue de bohemia-crystal.ro (voir Projets).</li>
+          <li><strong>2021 à 2023</strong>, à temps partiel pendant mes études : coordination fournisseurs, logistique et promotions, réseaux sociaux, et analyse des données clients (clustering, KNN) pour cibler les campagnes.</li>
+        </ul>
+      </div>
+    </details>
+    <details>
+      <summary>
+        <small>2025</small>
+        <span class="acc-t">All Energies Services<em><span lang="en">Finance &amp; Accounting Intern, Monaco</span><span lang="fr">Stagiaire Finance &amp; Comptabilité, Monaco</span></em></span>
+        <span class="plus" aria-hidden="true"></span>
+      </summary>
+      <div class="acc-body">
+        <p lang="en">Invoicing, payments and bank reconciliations; financial reporting and KPI tracking.</p>
+        <p lang="fr">Facturation, paiements et rapprochements bancaires ; reporting financier et suivi des KPI.</p>
+      </div>
+    </details>
+  </div>
+</section>
 
+<!-- EDUCATION -->
+<section class="edu" id="education">
+  <div class="sec-head">
+    <span class="pill"><i></i><span lang="en">Education</span><span lang="fr">Formation</span></span>
+    <h2 lang="en">Five years of study, done in four.</h2>
+    <h2 lang="fr">Cinq années d'études, réalisées en quatre.</h2>
+  </div>
+  <div class="edu-grid">
+    <article class="edu-card">
+      <small>2026 – 2027 · Paris</small>
+      <h3>MBA Big Data &amp; <span lang="en">AI</span><span lang="fr">IA</span></h3>
+      <p>MBA ESG</p>
+      <p class="muted" lang="en">Work-study with Kidays.</p><p class="muted" lang="fr">En alternance chez Kidays.</p>
+    </article>
+    <article class="edu-card edu-wide">
+      <small>2023 – 2026 · Monaco &amp; Paris</small>
+      <h3><span lang="en">BBA Honours, Business Administration</span><span lang="fr">BBA Honours, Business Administration</span></h3>
+      <p>International University of Monaco</p>
+      <p class="muted" lang="en">Digital Business Transformation track. Final-semester specialisation in Digital Business Development at ECE Paris (2026): machine learning, Tableau, Python &amp; SQL. Graduated 2026.</p>
+      <p class="muted" lang="fr">Parcours Digital Business Transformation. Dernier semestre en spécialisation Développement des activités digitales à l'ECE Paris (2026) : machine learning, Tableau, Python &amp; SQL. Diplômée en 2026.</p>
+    </article>
+    <article class="edu-card">
+      <small>2024 · Boston</small>
+      <h3><span lang="en">Exchange semester</span><span lang="fr">Semestre d'échange</span></h3>
+      <p>Suffolk University</p>
+      <p class="muted">GPA 3.94 / 4.0</p>
+    </article>
+  </div>
+  <div class="facts">
+    <div>
+      <h4><span lang="en">Languages</span><span lang="fr">Langues</span></h4>
+      <p><span lang="en">Romanian (native) · English (C2) · French (fluent)</span><span lang="fr">Roumain (maternelle) · Anglais (C2) · Français (courant)</span></p>
     </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpeg?v=1" alt="Background" data-aos="fade-in">
-
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Thea Ardeleanu</h2>
-        <p><span class="typed" data-typed-items="Welcome to my world"></span><span class="typed-cursor typed-cursor--blink"></span></p>
-        <div class="social-links">
-          <a href="https://www.instagram.com/ardeleanuthea_/" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/thea-maria-ardeleanu-7540762a6" target="_blank"><i class="bi bi-linkedin"></i></a>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <h3 class="sitename">T.A</h3>
-      <p>Creating tomorrow, one idea at a time.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://www.instagram.com/ardeleanuthea_/" target="_blank" class="features-item">
-          <i class="bi bi-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/in-thea-maria-ardeleanu-7540762a6" target="_blank" class="features-item">
-          <i class="bi bi-linkedin"></i>
-        </a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">T.A</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
+    <div>
+      <h4>Certifications</h4>
+      <p>Cambridge CAE C2 · DELF B2 · <span lang="en">Personal Trainer · Nutrition in Body Recomposition</span><span lang="fr">Coach sportif · Nutrition et recomposition corporelle</span></p>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2><span lang="en">Want to build <em>something?</em></span><span lang="fr">Envie de construire <em>quelque chose ?</em></span></h2>
+  <p lang="en">Projects in AI, automation, search or digital growth, or simply a coffee in Paris.</p>
+  <p lang="fr">Un projet en IA, automatisation, visibilité ou croissance digitale, ou simplement un café à Paris.</p>
+  <div class="contact-actions">
+    <a class="btn-big" href="mailto:theamaria.ardeleanu@monaco.edu">theamaria.ardeleanu@monaco.edu</a>
+    <button class="copy" type="button" data-copy="theamaria.ardeleanu@monaco.edu"><span lang="en">Copy</span><span lang="fr">Copier</span></button>
+  </div>
+  <ul class="socials">
+    <li><a href="https://www.linkedin.com/in/thea-maria-ardeleanu-7540762a6" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+    <li><a href="https://www.instagram.com/ardeleanuthea_/" target="_blank" rel="noopener">Instagram ↗</a></li>
+    <li><a href="cv.html"><span lang="en">One-page CV ↗</span><span lang="fr">CV une page ↗</span></a></li>
+    <li><a lang="en" href="assets/docs/Thea_Ardeleanu_CV.pdf" download>PDF ↓</a><a lang="fr" href="assets/docs/Thea_Ardeleanu_CV_FR.pdf" download>PDF ↓</a></li>
+  </ul>
+</section>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+</main>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<footer class="foot">
+  <span class="foot-name">Thea Maria Ardeleanu</span>
+  <span>Paris · © 2026</span>
+</footer>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+<div class="toast" role="status" aria-live="polite"></div>
+<script src="assets/site.js"></script>
 </body>
-
 </html>
